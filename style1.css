@@ -1,0 +1,129 @@
+.aaa{
+  background-color: rgb(15, 46, 35) !important;
+  color: white !important;
+position: fixed;
+width: 100%;
+z-index: 2;
+}
+.sidenav {
+
+  margin-top: 60px !important;
+  background-color: #f1f1f1 !important;
+  
+ 
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555 !important;
+  margin-top: 20px !important;
+  color: white;
+  padding: 15px !important;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    margin-top: 20px !important;
+   
+    padding: 15px !important;
+  }
+  .row.content {height: auto !important;
+  } 
+}
+
+.man{
+  
+  text-decoration: none !important;
+
+  display: inline-block !important;
+ 
+}
+.man li a{
+  text-decoration: none !important;
+  color: rgb(159, 94, 219);
+  
+}
+.mmm{
+  padding: 30px !important;
+  color: blue;
+}
+.mmm li a{
+  padding-bottom: 30px !important;
+  word-spacing: 20px !important;
+}
+
+.mnm{
+  padding-right: 30px !important;
+  margin-top: 10px;
+
+}
+.fb{
+  margin-top: 20px !important;
+  text-decoration: none;
+display: flex;
+display: block;
+justify-content: center;
+margin-left: 50%;
+
+  
+}
+.fb a{
+  text-decoration: none !important;
+  display: flex !important;
+  display: inline-block;
+}
+.man{
+
+  margin-top: 20px !important;
+  width: 200px !important;
+
+}
+
+.my{
+  padding: 10px !important;
+}
+.my:hover {
+background-color: #6b6262 !important;
+}
+.aa1{
+  color: white !important;
+}
+
+
+.abc{
+  background-color: rgb(56, 243, 243);
+  color: black;
+  text-align: center;
+
+}
+
+.main{
+
+  display: flex;
+  justify-content:space-around;
+  flex-flow: row-reverse;
+  
+ 
+
+}
+
+.abc1{
+  background-color: chocolate;
+  width: 200px;
+  height: 200px;
+}
+
+.abc2{
+  background-color: rgb(225, 28, 231);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-items: flex-end;
+}
+
+.abc3{
+  background-color: rgb(207, 17, 64);
+  width: 200px;
+  height: 200px;
+}
